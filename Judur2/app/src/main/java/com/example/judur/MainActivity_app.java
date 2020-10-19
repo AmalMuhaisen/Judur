@@ -20,6 +20,6 @@ public class MainActivity_app extends AppCompatActivity {
         food fo2 = new food("سلطة فاصوليا بالذرة",R.drawable.fa);
         food fo3 = new food("شوربة عدس",R.drawable.ad);
         food fo4 = new food("حمص",R.drawable.hm);
-        food fo5 = new food("شوربة يقطين",R.drawable.ga);
+        
     }
 }

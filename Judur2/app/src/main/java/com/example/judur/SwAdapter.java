@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -31,7 +32,8 @@ public class SwAdapter extends RecyclerView.Adapter {
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
-
+        ((SwAdapter.ViewHolder)holder).img2.setImageResource(SweetArray.get(position).getImage());
+        ((SwAdapter.ViewHolder)holder).name2.setText(SweetArray.get(position).getName());
     }
 
     @Override
@@ -41,7 +43,7 @@ public class SwAdapter extends RecyclerView.Adapter {
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
-        public TextView img2;
+        public ImageView img2;
         public TextView name2;
         public View view2;
 
@@ -50,7 +52,7 @@ public class SwAdapter extends RecyclerView.Adapter {
             super(itemView);
 
             view2 = itemView; // اهم سطر
-            img2 = itemView.findViewById(R.id.textView);
+            img2 = itemView.findViewById(R.id.imageView5);
             name2 =itemView.findViewById(R.id.textView2);
         }
     }

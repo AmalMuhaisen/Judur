@@ -36,7 +36,7 @@ public class MainActivity_sw extends AppCompatActivity {
         RecyclerView.LayoutManager am = new LinearLayoutManager(this);
         rect.setLayoutManager(am);
 
-         SwAdapter sw = new SwAdapter(sweet,this);
+        SwAdapter sw = new SwAdapter(sweet,this);
         rect.setAdapter(sw);
     }
 }

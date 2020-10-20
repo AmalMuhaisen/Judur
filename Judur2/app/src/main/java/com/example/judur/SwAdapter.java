@@ -24,7 +24,7 @@ public class SwAdapter extends RecyclerView.Adapter {
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View vi = LayoutInflater.from(parent.getContext()).inflate(R.layout.app_food,parent,false);
+        View vi = LayoutInflater.from(parent.getContext()).inflate(R.layout.sw_food,parent,false);
         AppAdapter.ViewHolder vh = new AppAdapter.ViewHolder(vi);
         return vh;
     }

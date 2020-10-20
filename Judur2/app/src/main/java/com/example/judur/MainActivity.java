@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,11 +19,12 @@ public class MainActivity extends AppCompatActivity {
         ImageView cz =findViewById(R.id.imageView2);
         ImageView md =findViewById(R.id.imageView3);
 
+
         fa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent fas = new Intent(MainActivity.this,MainActivity_app.class);
-                startActivity(fas);
+                Intent sa = new Intent(MainActivity.this,MainActivity_app.class);
+                startActivity(sa);
             }
         });
 
@@ -37,9 +39,11 @@ public class MainActivity extends AppCompatActivity {
         md.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-            Intent mach = new Intent(MainActivity.this,MainActivity_ar.class);
-            startActivity(mach);
+                Intent mach = new Intent(MainActivity.this,MainActivity_ar.class);
+                startActivity(mach);
             }
         });
+
+
     }
 }

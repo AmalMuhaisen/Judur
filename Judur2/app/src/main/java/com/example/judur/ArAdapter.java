@@ -25,8 +25,8 @@ public class ArAdapter extends RecyclerView.Adapter {
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View vi = LayoutInflater.from(parent.getContext()).inflate(R.layout.app_food,parent,false);
-        AppAdapter.ViewHolder vh = new AppAdapter.ViewHolder(vi);
+        View vi = LayoutInflater.from(parent.getContext()).inflate(R.layout.ar_food,parent,false);
+        ViewHolder vh = new ViewHolder(vi);
         return vh;
     }
 

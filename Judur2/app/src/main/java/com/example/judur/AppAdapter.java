@@ -32,7 +32,8 @@ public class AppAdapter extends RecyclerView.Adapter {
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
-
+        ((AppAdapter.ViewHolder)holder).img.setImageResource(AppetizarsArray.get(position).getImage());
+        ((AppAdapter.ViewHolder)holder).name.setText(AppetizarsArray.get(position).getName());
     }
 
     @Override
@@ -42,7 +43,7 @@ public class AppAdapter extends RecyclerView.Adapter {
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
-        public TextView img;
+        public ImageView img;
         public TextView name;
         public View view;
 
@@ -50,7 +51,7 @@ public class AppAdapter extends RecyclerView.Adapter {
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             view = itemView; // اهم سطر
-            img = itemView.findViewById(R.id.textView);
+            img = itemView.findViewById(R.id.imageView5);
             name =itemView.findViewById(R.id.textView2);
 
         }

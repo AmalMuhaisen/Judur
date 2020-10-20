@@ -30,10 +30,13 @@ public class MainActivity_sw extends AppCompatActivity {
         sweet.add(food4);
         sweet.add(food5);
 
-        RecyclerView recv =findViewById(R.id.recy);
+        RecyclerView rect =findViewById(R.id.recy);
 
-        recv.setHasFixedSize(true);
+        rect.setHasFixedSize(true);
         RecyclerView.LayoutManager am = new LinearLayoutManager(this);
-        recv.setLayoutManager(am);
+        rect.setLayoutManager(am);
+
+         SwAdapter sw = new SwAdapter(sweet,this);
+        rect.setAdapter(sw);
     }
 }

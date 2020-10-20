@@ -32,7 +32,7 @@ public class AppAdapter extends RecyclerView.Adapter {
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
-        
+
     }
 
     @Override

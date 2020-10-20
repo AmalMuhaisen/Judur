@@ -34,5 +34,8 @@ public class MainActivity_ar extends AppCompatActivity {
         rev.setHasFixedSize(true);
         RecyclerView.LayoutManager am = new LinearLayoutManager(this);
         rev.setLayoutManager(am);
+
+        ArAdapter aa = new ArAdapter(MainDish,this);
+        rev.setAdapter(aa);
     }
 }

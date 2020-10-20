@@ -18,17 +18,17 @@ public class MainActivity_sw extends AppCompatActivity {
 
         ArrayList<food> sweet = new ArrayList<>();
 
-        food foo1 = new food("مجبوس دجاج ",R.drawable.md);
-        food foo2 = new food(" مجبوس لحم",R.drawable.ml);
-        food foo3 = new food("ستيك ",R.drawable.st);
-        food foo4 = new food("سمك",R.drawable.rf);
-        food foo5 = new food("مرق دجاج ",R.drawable.mad);
+        food food1 = new food("كيكة زعفران ",R.drawable.cz);
+        food food2 = new food("  جيزكيك",R.drawable.cc);
+        food food3 = new food("لقيمات ",R.drawable.lm);
+        food food4 = new food("قرص عقيلي",R.drawable.go);
+        food food5 = new food("بقلاوه ",R.drawable.ba);
 
-        sweet.add(foo1);
-        sweet.add(foo2);
-        sweet.add(foo3);
-        sweet.add(foo4);
-        sweet.add(foo5);
+        sweet.add(food1);
+        sweet.add(food2);
+        sweet.add(food3);
+        sweet.add(food4);
+        sweet.add(food5);
 
         RecyclerView recv =findViewById(R.id.recy);
 

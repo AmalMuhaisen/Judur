@@ -32,7 +32,8 @@ public class ArAdapter extends RecyclerView.Adapter {
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
-
+        ((ViewHolder)holder).img3.setImageResource(MainDishArray.get(position).getImage());
+        ((ViewHolder)holder).name3.setText(MainDishArray.get(position).getName());
     }
 
     @Override

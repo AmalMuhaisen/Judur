@@ -1,6 +1,7 @@
 package com.example.judur;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
@@ -30,5 +31,9 @@ public class MainActivity_app extends AppCompatActivity {
         Appetizars.add(fo5);
 
         RecyclerView rv =findViewById(R.id.rv);
+
+        rv.setHasFixedSize(true);
+        RecyclerView.LayoutManager am = new LinearLayoutManager(this);
+        rv.setLayoutManager(am);
     }
 }

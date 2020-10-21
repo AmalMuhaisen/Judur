@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1D2343"
     tools:context=".MainActivity_sw">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="اطباق رئيسية"
+        android:text=" حلويات"
         android:textAlignment="center"
-        android:textColor="#070101"
+        android:textColor="#F8F4F4"
         android:textSize="36sp"
         android:textStyle="bold" />
 

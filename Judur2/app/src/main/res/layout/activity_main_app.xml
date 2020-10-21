@@ -5,15 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#1D2343"
     tools:context=".MainActivity_app">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="اطباق رئيسية"
+        android:fontFamily="@font/aguafina_script"
+        android:text="مقبلات"
         android:textAlignment="center"
-        android:textColor="#070101"
+        android:textColor="#F1EDED"
         android:textSize="36sp"
         android:textStyle="bold" />
 

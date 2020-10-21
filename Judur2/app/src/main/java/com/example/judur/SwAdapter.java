@@ -26,14 +26,14 @@ public class SwAdapter extends RecyclerView.Adapter {
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View vi = LayoutInflater.from(parent.getContext()).inflate(R.layout.sw_food,parent,false);
-        AppAdapter.ViewHolder vh = new AppAdapter.ViewHolder(vi);
+        ViewHolder vh = new ViewHolder(vi);
         return vh;
     }
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
-        ((SwAdapter.ViewHolder)holder).img2.setImageResource(SweetArray.get(position).getImage());
-        ((SwAdapter.ViewHolder)holder).name2.setText(SweetArray.get(position).getName());
+        ((ViewHolder)holder).img2.setImageResource(SweetArray.get(position).getImage());
+        ((ViewHolder)holder).name2.setText(SweetArray.get(position).getName());
     }
 
     @Override

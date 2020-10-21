@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text=" حلويات"
         android:textAlignment="center"
-        android:textColor="#F8F4F4"
+        android:textColor="#FFEB3B"
         android:textSize="36sp"
         android:textStyle="bold" />
 

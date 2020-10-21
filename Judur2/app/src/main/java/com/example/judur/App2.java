@@ -14,13 +14,19 @@ public class App2 extends AppCompatActivity {
         setContentView(R.layout.activity_app2);
 
         Bundle bun = getIntent().getExtras();
-        food recipe = (food) bun.getSerializable("ap1");
+        food recipee = (food) bun.getSerializable("ap1");
 
         ImageView image = findViewById(R.id.imageView6);
         TextView name = findViewById(R.id.textView4);
-        TextView Recipe = findViewById(R.id.textView6);
+        TextView ingredients = findViewById(R.id.textView6);
+        TextView recipe = findViewById(R.id.textView5);
 
-        image.setImageResource(recipe.getImage());
-        name.setText(recipe.getName());
+
+
+        image.setImageResource(recipee.getImage());
+        name.setText(recipee.getName());
+        ingredients.setText(recipee.getName());
+        recipe.setText(recipee.getName());
+
     }
 }

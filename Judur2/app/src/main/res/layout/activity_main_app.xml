@@ -15,7 +15,7 @@
         android:fontFamily="@font/aguafina_script"
         android:text="مقبلات"
         android:textAlignment="center"
-        android:textColor="#F1EDED"
+        android:textColor="#FFEB3B"
         android:textSize="36sp"
         android:textStyle="bold" />
 

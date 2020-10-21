@@ -33,6 +33,8 @@
         android:layout_width="134dp"
         android:layout_height="286dp"
         android:text="TextView"
+        android:textColor="#FFEB3B"
+        android:textSize="12sp"
         tools:layout_editor_absoluteX="218dp"
         tools:layout_editor_absoluteY="370dp" />
 
@@ -41,6 +43,8 @@
         android:layout_width="134dp"
         android:layout_height="286dp"
         android:text="TextView"
+        android:textColor="#FFEB3B"
+        android:textSize="12sp"
         tools:layout_editor_absoluteX="41dp"
         tools:layout_editor_absoluteY="370dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

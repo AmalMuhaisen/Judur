@@ -1,9 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Sw2">
+    android:background="#1D2343"
+    tools:context=".App2">
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="393dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="16dp"
+        android:text="كيكة زعفران "
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="395dp"
+        android:layout_height="271dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cz"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="134dp"
+        android:layout_height="286dp"
+        android:text="TextView"
+        android:textColor="#FFEB3B"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="134dp"
+        android:layout_height="286dp"
+        android:text="TextView"
+        android:textColor="#FFEB3B"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="370dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

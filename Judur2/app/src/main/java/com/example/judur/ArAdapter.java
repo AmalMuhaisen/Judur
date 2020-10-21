@@ -1,6 +1,7 @@
 package com.example.judur;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,9 +32,17 @@ public class ArAdapter extends RecyclerView.Adapter {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, final int position) {
         ((ViewHolder)holder).img3.setImageResource(MainDishArray.get(position).getImage());
         ((ViewHolder)holder).name3.setText(MainDishArray.get(position).getName());
+        ((SwAdapter.ViewHolder)holder).view2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(MdContext,App2.class);
+                in.putExtra("ar1",MainDishArray.get(position));
+                MdContext.startActivity(in);
+            }
+        });
     }
 
     @Override

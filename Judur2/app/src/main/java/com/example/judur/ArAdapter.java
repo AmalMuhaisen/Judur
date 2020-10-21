@@ -38,7 +38,7 @@ public class ArAdapter extends RecyclerView.Adapter {
         ((SwAdapter.ViewHolder)holder).view2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(MdContext,App2.class);
+                Intent in = new Intent(MdContext,Ar2.class);
                 in.putExtra("ar1",MainDishArray.get(position));
                 MdContext.startActivity(in);
             }

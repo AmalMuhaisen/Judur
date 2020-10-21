@@ -38,7 +38,7 @@ public class SwAdapter extends RecyclerView.Adapter {
         ((ViewHolder)holder).view2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(SweetContext,App2.class);
+                Intent in = new Intent(SweetContext,Sw2.class);
                 in.putExtra("sw1",SweetArray.get(position));
                 SweetContext.startActivity(in);
             }

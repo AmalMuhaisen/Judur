@@ -23,8 +23,8 @@ public class Sw2 extends AppCompatActivity {
 
         img3.setImageResource(ir.getImage());
         name3.setText(ir.getName());
-        ingredients3.setText(ir.getName());
-        recipe3.setText(ir.getName());
+        ingredients3.setText( " المقادير :" + ir.getIngredients());
+        recipe3.setText(" الوصفة : " +ir.getRecipe());
 
     }
 }

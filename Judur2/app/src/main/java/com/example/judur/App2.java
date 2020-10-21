@@ -25,8 +25,8 @@ public class App2 extends AppCompatActivity {
 
         image.setImageResource(ir1.getImage());
         name.setText(ir1.getName());
-        ingredients.setText(ir1.getName());
-        recipe.setText(ir1.getName());
+        ingredients.setText(ir1.getIngredients());
+        recipe.setText(ir1.getRecipe());
 
     }
 }

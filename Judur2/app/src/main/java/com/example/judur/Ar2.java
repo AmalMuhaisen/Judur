@@ -23,8 +23,8 @@ public class Ar2 extends AppCompatActivity {
 
         img2.setImageResource(ir2.getImage());
         name2.setText(ir2.getName());
-        ingredients2.setText(ir2.getName());
-        recipe2.setText(ir2.getName());
+        ingredients2.setText(ir2.getIngredients());
+        recipe2.setText(ir2.getRecipe());
 
     }
 }

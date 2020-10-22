@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item1"
+        android:icon="@drawable/ic_baseline_menu_24"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/item2"
+        android:title="ريوق"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item3"
+        android:title="مقبلات"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item4"
+        android:title="سلطات"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item2"
+        android:title="باستا"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item2"
+        android:title="شوربات"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item2"
+        android:title="اطباق رئيسية"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item2"
+        android:title="حلويات"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item2"
+        android:title="مشروبات باردة"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item2"
+        android:title="مشروبات ساخنه"
+        app:showAsAction="never"/>
+
+
+</menu>

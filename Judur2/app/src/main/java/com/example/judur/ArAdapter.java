@@ -35,7 +35,7 @@ public class ArAdapter extends RecyclerView.Adapter {
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, final int position) {
         ((ViewHolder)holder).img3.setImageResource(MainDishArray.get(position).getImage());
         ((ViewHolder)holder).name3.setText(MainDishArray.get(position).getName());
-        ((SwAdapter.ViewHolder)holder).view2.setOnClickListener(new View.OnClickListener() {
+        ((ViewHolder)holder).view3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(MdContext,Ar2.class);

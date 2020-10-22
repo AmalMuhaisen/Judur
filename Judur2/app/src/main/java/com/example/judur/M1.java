@@ -16,7 +16,7 @@ public class M1 extends AppCompatActivity {
        new Handler().postDelayed(new Runnable() {
            @Override
            public void run(){
-               Intent In = new Intent(M1.this,MainActivity.class);
+               Intent In = new Intent(M1.this,FirstPage.class);
                startActivity(In);
                finish();
        }

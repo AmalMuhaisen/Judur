@@ -2,8 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:id="@+id/item1"
-        android:icon="@drawable/ic_baseline_menu_24"
+
+    <item android:id="@+id/item11"
+        android:icon="@drawable/menu"
         app:showAsAction="ifRoom"/>
 
     <item android:id="@+id/item2"
@@ -18,29 +19,31 @@
         android:title="سلطات"
         app:showAsAction="never"/>
 
-    <item android:id="@+id/item2"
+    <item android:id="@+id/item5"
         android:title="باستا"
         app:showAsAction="never"/>
 
-    <item android:id="@+id/item2"
+    <item android:id="@+id/item6"
         android:title="شوربات"
         app:showAsAction="never"/>
 
-    <item android:id="@+id/item2"
+    <item android:id="@+id/item7"
         android:title="اطباق رئيسية"
         app:showAsAction="never"/>
 
-    <item android:id="@+id/item2"
+    <item android:id="@+id/item8"
         android:title="حلويات"
         app:showAsAction="never"/>
 
-    <item android:id="@+id/item2"
+    <item android:id="@+id/item9"
         android:title="مشروبات باردة"
         app:showAsAction="never"/>
 
-    <item android:id="@+id/item2"
+    <item android:id="@+id/item10"
         android:title="مشروبات ساخنه"
         app:showAsAction="never"/>
+
+
 
 
 </menu>

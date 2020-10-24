@@ -1,16 +1,19 @@
 package com.example.judur;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.Html;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toolbar;
 
 import java.util.zip.Inflater;
 
@@ -21,14 +24,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //getSupportActionBar().setTitle(Html.fromHtml("<font color=\"black\">"+ getString(R.string.app_name)+ "</font/"));
+        //getSupportActionBar().setIcon(R.drawable.logo);
 
-        androidx.appcompat.widget.Toolbar tb = findViewById(R.id.ct);
-        setSupportActionBar(tb);
-        getSupportActionBar().setTitle("");
 
         ImageView fa = findViewById(R.id.imageView);
         ImageView cz =findViewById(R.id.imageView2);
         ImageView md =findViewById(R.id.imageView3);
+
+        Toolbar tb =findViewById(R.id.ct);
+        tb.setTitle("");
+        setSupportActionBar(tb);
+
+
 
 
         fa.setOnClickListener(new View.OnClickListener() {
@@ -57,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

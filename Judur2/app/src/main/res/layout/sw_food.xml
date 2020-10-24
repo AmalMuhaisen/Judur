@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="300dp"
         android:scaleType="fitXY"
+        android:layout_marginBottom="1dp"
         app:srcCompat="@drawable/cz" />
 
     <TextView
@@ -22,6 +23,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="10dp"
+        android:padding="10dp"
         android:background="#000000"
         android:text=" كيكة زعفران"
         android:textColor="#FFEB3B"
